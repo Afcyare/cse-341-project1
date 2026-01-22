@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Users Api",
-    "description": "Users Api",
+    "title": "Contacts Api",
+    "description": "Contacts Api",
     "version": "1.0.0"
   },
   "host": "cse-341-project1-t2lw.onrender.com",
@@ -28,7 +28,7 @@
     "/users/": {
       "get": {
         "tags": [
-          "users"
+          "Contacts"
         ],
         "description": "",
         "produces": [
@@ -42,7 +42,7 @@
       },
       "post": {
         "tags": [
-          "users"
+          "Contacts"
         ],
         "description": "",
         "parameters": [
@@ -84,7 +84,7 @@
     "/users/{id}": {
       "get": {
         "tags": [
-          "users"
+          "Contacts"
         ],
         "description": "",
         "produces": [
@@ -109,7 +109,7 @@
       },
       "put": {
         "tags": [
-          "users"
+          "Contacts"
         ],
         "description": "",
         "parameters": [
@@ -155,7 +155,7 @@
       },
       "delete": {
         "tags": [
-          "users"
+          "Contacts"
         ],
         "description": "",
         "parameters": [
